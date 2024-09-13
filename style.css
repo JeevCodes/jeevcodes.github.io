@@ -1,2 +1,9 @@
+header > h1 > a {
+    text-decoration: none;
+    font-family: "Dancing Script";
+}
 
+#logo2 {
+    font-family: "Lora";
+}
 
