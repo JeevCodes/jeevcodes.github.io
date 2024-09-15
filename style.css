@@ -1,9 +1,179 @@
-header > h1 > a {
+body {
+    margin: 0;
+    font-family: "Lora";
+    background-color: #E2D9C5;
+}
+
+header {
+    background-color: #8B3442;
+    padding-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#logo1 {
     text-decoration: none;
-    font-family: "Dancing Script";
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    color: #E2D9C5;
 }
 
 #logo2 {
-    font-family: "Lora";
+    font-family: "Lora", serif;
+    font-size: 15px;
+    color: #E2D9C5;
+    margin: 0;
 }
+
+header ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+ul > li > a {
+    font-size: 20px;
+    color: #E2D9C5;
+    padding: 20px;
+    font-weight: bold
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E2D9C5;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color:  #6f7714;
+    font-weight: bold;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 20px
+}
+
+a > img {
+    max-width: 100%;  
+    height: auto;
+   border-radius: 10%;
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: stretch; 
+}
+
+.recipe-container > div {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+div > div {
+    padding: 20px;
+}
+
+aside > img {
+    max-width: 100%;   /* Image width adjusts based on the container's width */
+    height: auto;
+}
+
+section > h2 {
+    background-color: #6f7714;
+    padding: 1%;
+    color: #E2D9C5;
+}
+
+#blank  {
+    color: #6f7714;
+}
+
+main > section > img  {
+    margin: 50px;
+    width: 25%;
+    height: auto;
+
+}
+
+main > section {
+    display: flex;
+}
+
+main > section > div {
+    margin: 50px;
+    height: 60%;
+    background-color: #8B3442;
+}
+
+article > header {
+    padding: 0;
+}
+header > h2 {
+    color: #E2D9C5;
+    text-align: center;
+    padding: 20px;
+}
+
+article > main {
+    margin: 50px;
+}
+main > h3 {
+    margin: 0;
+    padding: 20px;
+    background-color: #6f7714;
+    color: #E2D9C5;
+}
+
+.chef {
+    display: flex;
+    margin: 20px;
+}
+
+.chef >img {
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#read-more {
+    background-color: #8B3442;
+}
+
+#read-more > li > a {
+    color: #E2D9C5;
+    text-decoration: none;
+}
+
+
+
 
